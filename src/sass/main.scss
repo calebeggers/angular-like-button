@@ -1,0 +1,21 @@
+#like-button {
+	color: #fff;
+	height: 100px;
+	width: 200px;
+	font-size: 30px;
+	background-color: #2C96DD;
+	border-radius: 10px;
+	border: 0;
+	border-bottom: 7px solid #217EBA;
+	position: relative;
+		&:focus {
+		outline: 0;
+	};
+}
+
+#like-button:active {
+	top: 7px;
+	border-bottom: 0;
+	height: 93px;
+	transform: 7px;
+}
